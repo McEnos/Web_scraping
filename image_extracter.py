@@ -16,5 +16,5 @@ if __name__ == '__main__':
 	links = extract_images_location(apress)
 	for link in links:
 		full_url = urljoin(target_url,link)
-		webbrowser.open(full_url)
+		# webbrowser.open(full_url)
 		print(full_url)
